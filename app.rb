@@ -1,5 +1,6 @@
-require 'sinatra'
-
+require 'sinatra/base'
+class Battle < Sinatra::Application
 get '/' do
-  'Hello Battle!'
+  'Testing infrastructure working!'
+end
 end
